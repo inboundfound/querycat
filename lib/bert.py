@@ -4,7 +4,7 @@ from torch import nn
 import numpy as np
 from sklearn.manifold import TSNE
 from sklearn.decomposition import PCA
-import umap-learn
+import umap
 import transformers
 from transformers import BertTokenizer, BertModel, DistilBertTokenizer, DistilBertModel
 import random
